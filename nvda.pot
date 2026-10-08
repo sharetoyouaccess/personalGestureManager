@@ -1,0 +1,697 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Personal Gesture Manager"
+msgstr ""
+
+msgid "Personal &Gesture Manager..."
+msgstr ""
+
+msgid "Personal Gesture Manager: usage statistics could not be saved. Check free disk space; details are in the NVDA log."
+msgstr ""
+
+msgid "Opens Personal Gesture Manager"
+msgstr ""
+
+msgid "Opens the gesture tester of Personal Gesture Manager"
+msgstr ""
+
+msgid "Personal Gesture Manager is not available on secure screens"
+msgstr ""
+
+msgid "Scratchpad"
+msgstr ""
+
+msgid "Commands without a description"
+msgstr ""
+
+msgid "Personal Gesture Manager could not be opened. Details are in the NVDA log."
+msgstr ""
+
+msgid "Most used commands"
+msgstr ""
+
+msgid "Least used commands"
+msgstr ""
+
+msgid "Unused commands with a gesture"
+msgstr ""
+
+msgid "Commands with a gesture"
+msgstr ""
+
+msgid "Commands with more than one gesture"
+msgstr ""
+
+msgid "Commands without a gesture"
+msgstr ""
+
+msgid "All commands"
+msgstr ""
+
+msgid "Commands by add-on"
+msgstr ""
+
+msgid "Conflicts"
+msgstr ""
+
+msgid "Statistics"
+msgstr ""
+
+msgid "Gesture tester"
+msgstr ""
+
+msgid "Guides for NVDA and add-ons"
+msgstr ""
+
+msgid "installed"
+msgstr ""
+
+msgid "portable"
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+msgid "Windows Store"
+msgstr ""
+
+msgid "This NVDA session"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Last 7 days"
+msgstr ""
+
+msgid "Last 30 days"
+msgstr ""
+
+msgid "All time"
+msgstr ""
+
+msgid "all keyboard layouts"
+msgstr ""
+
+msgid "desktop"
+msgstr ""
+
+msgid "laptop"
+msgstr ""
+
+msgid "Conflict"
+msgstr ""
+
+msgid "Override"
+msgstr ""
+
+msgid "Depends on focus"
+msgstr ""
+
+msgid "Conflict, only one works"
+msgstr ""
+
+msgid "Override, one command wins"
+msgstr ""
+
+msgid "Depends on focused control"
+msgstr ""
+
+msgid "1 time"
+msgstr ""
+
+msgid "(runs now)"
+msgstr ""
+
+msgid "&Move it to this command"
+msgstr ""
+
+msgid "&Keep on both commands"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "&Choose another gesture"
+msgstr ""
+
+msgid "Gestures"
+msgstr ""
+
+msgid "Add a gesture..."
+msgstr ""
+
+msgid "Reset this command to default"
+msgstr ""
+
+msgid "Press Enter to change, or Delete to remove the selected gesture."
+msgstr ""
+
+msgid "Personal Gesture Manager is already open"
+msgstr ""
+
+msgid "&Add-on"
+msgstr ""
+
+msgid "&Filter type"
+msgstr ""
+
+msgid "C&ommands"
+msgstr ""
+
+msgid "Gestures of {cmd}"
+msgstr ""
+
+msgid "{cmd} has no gesture"
+msgstr ""
+
+msgid "NVDA"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "Already using the default gestures"
+msgstr ""
+
+msgid "No commands"
+msgstr ""
+
+msgid "Choose a backup of your gestures to restore (newest first):"
+msgstr ""
+
+msgid "Restore gestures"
+msgstr ""
+
+msgid "Gestures restored"
+msgstr ""
+
+msgid "&Shared gestures"
+msgstr ""
+
+msgid "No conflicts"
+msgstr ""
+
+msgid "Gesture conflict"
+msgstr ""
+
+msgid "Change the gesture of this command..."
+msgstr ""
+
+msgid "&Period"
+msgstr ""
+
+msgid "Commands by &use"
+msgstr ""
+
+msgid "Su&mmary"
+msgstr ""
+
+msgid "Every gesture was used in this period"
+msgstr ""
+
+msgid "{period}: 1 command with a gesture was not used. Recording since {date}."
+msgstr ""
+
+msgid "{period}: {n} commands with a gesture were not used. Recording since {date}."
+msgstr ""
+
+msgid "Delete all usage statistics? This cannot be undone."
+msgstr ""
+
+msgid "All statistics deleted"
+msgstr ""
+
+msgid "Test &results"
+msgstr ""
+
+msgid "&Add-ons and NVDA"
+msgstr ""
+
+msgid "No add-ons found"
+msgstr ""
+
+msgid "{name} (no description)"
+msgstr ""
+
+msgid "{key}, all keyboard layouts"
+msgstr ""
+
+msgid "{n} times"
+msgstr ""
+
+msgid "Adjust gestures for this command"
+msgstr ""
+
+msgid "&Close"
+msgstr ""
+
+msgid "No gesture"
+msgstr ""
+
+msgid "{name}. NVDA {version}, {mode}, on {computer}, {windows}."
+msgstr ""
+
+msgid "No conflicts between add-ons."
+msgstr ""
+
+msgid "All add-ons"
+msgstr ""
+
+msgid "All add-ons and NVDA"
+msgstr ""
+
+msgid "This command is not available here. App-specific commands are listed only for the application that had focus before opening this dialog."
+msgstr ""
+
+msgid "The default gestures could not be saved. Details are in the NVDA log."
+msgstr ""
+
+msgid "Enter the new gesture now, or press Escape to cancel."
+msgstr ""
+
+msgid "{g} is a normal typing key. If it is assigned to a command, it will no longer type in any application. Assign it anyway?"
+msgstr ""
+
+msgid "{g} is a normal typing key. If it is assigned to a command, it will no longer type where this command works. Assign it anyway?"
+msgstr ""
+
+msgid "Typing key"
+msgstr ""
+
+msgid "It is free."
+msgstr ""
+
+msgid "Keyboard layout"
+msgstr ""
+
+msgid "{g} is already used by:\n{list}\n\nMove it to this command: it is removed from the command(s) above.\n{keep}\nChoose another gesture: enter a different one instead."
+msgstr ""
+
+msgid "Warning: this key belongs to one of NVDA's own commands."
+msgstr ""
+
+msgid "This command has no gesture"
+msgstr ""
+
+msgid "Remove gesture"
+msgstr ""
+
+msgid "No backups yet. A backup is made automatically before every change."
+msgstr ""
+
+msgid "Undo the last change"
+msgstr ""
+
+msgid "Could not restore the backup. Details are in the NVDA log."
+msgstr ""
+
+msgid "{msg}. {n} conflicts remaining"
+msgstr ""
+
+msgid "No commands with a gesture were used in this period"
+msgstr ""
+
+msgid "No usage recorded yet for this selection"
+msgstr ""
+
+msgid "The statistics file could not be read when NVDA started, so it cannot be changed now. Restart NVDA and try again."
+msgstr ""
+
+msgid "Details copied"
+msgstr ""
+
+msgid "Could not copy the details"
+msgstr ""
+
+msgid "Testing. Press a key or perform a gesture to hear what it does; it will not run. Escape stops."
+msgstr ""
+
+msgid "NVDA User Guide"
+msgstr ""
+
+msgid "NVDA Commands Quick Reference"
+msgstr ""
+
+msgid "Complete manual of NVDA."
+msgstr ""
+
+msgid "All NVDA keyboard commands on one page."
+msgstr ""
+
+msgid "No add-on selected"
+msgstr ""
+
+msgid "Open full guide"
+msgstr ""
+
+msgid "{key}, desktop layout only"
+msgstr ""
+
+msgid "{key}, laptop layout only"
+msgstr ""
+
+msgid "NVDA {version}, {mode}, running from {nvdaDir}"
+msgstr ""
+
+msgid "Gestures and settings saved in {configPath}"
+msgstr ""
+
+msgid "Keyboard layout: {layout}. Input language: {lang}."
+msgstr ""
+
+msgid "{windows}, build {build}. Computer name: {computer}."
+msgstr ""
+
+msgid "Application tested: {app}"
+msgstr ""
+
+msgid "The guide could not be opened. Details are in the NVDA log."
+msgstr ""
+
+msgid "1 conflict between add-ons"
+msgstr ""
+
+msgid "Command"
+msgstr ""
+
+msgid "Adjust ge&stures for this command..."
+msgstr ""
+
+msgid "&Backups..."
+msgstr ""
+
+msgid "Reset all {n} commands of {addon} to their default gestures? A backup is made first."
+msgstr ""
+
+msgid "resetting all commands of {addon}"
+msgstr ""
+
+msgid "resetting {cmd}"
+msgstr ""
+
+msgid "No command selected"
+msgstr ""
+
+msgid "No: press another key. Cancel: go back."
+msgstr ""
+
+msgid "Replace {old} with {g} for {cmd}?"
+msgstr ""
+
+msgid "Assign {g} to {cmd}?"
+msgstr ""
+
+msgid "Choose where this gesture applies, or Cancel:"
+msgstr ""
+
+msgid "replacing {old} with {g} for {cmd}"
+msgstr ""
+
+msgid "adding {g} to {cmd}"
+msgstr ""
+
+msgid "Keep on both commands: {cmd} will run; the others will no longer run with this key."
+msgstr ""
+
+msgid "Keep on both commands: which one runs depends on the focused control."
+msgstr ""
+
+msgid "Keep on both commands: only one of them will run, and it cannot be known which."
+msgstr ""
+
+msgid "Replaced {old} with {g}"
+msgstr ""
+
+msgid "{msg}. It does not work on the {layout} layout, because this key was removed there from another command of the same group."
+msgstr ""
+
+msgid "Removed {g}"
+msgstr ""
+
+msgid "Could not remove {g}. Details are in the NVDA log."
+msgstr ""
+
+msgid "Could not back up gestures.ini. Continue without a backup?"
+msgstr ""
+
+msgid "Backup failed"
+msgstr ""
+
+msgid "Gesture"
+msgstr ""
+
+msgid "Layout"
+msgstr ""
+
+msgid "Shared by"
+msgstr ""
+
+msgid "{g} is used by {n} commands. Choose a command:"
+msgstr ""
+
+msgid "Only this command uses {g} (it is removed from the others)"
+msgstr ""
+
+msgid "Remove {g} from this command"
+msgstr ""
+
+msgid "{g}, {cmd}:"
+msgstr ""
+
+msgid "{msg}. No conflicts remaining"
+msgstr ""
+
+msgid "{msg}. 1 conflict remaining"
+msgstr ""
+
+msgid "Uses"
+msgstr ""
+
+msgid "Add-on"
+msgstr ""
+
+msgid "{period}: no command with a gesture was used. Recording since {date}."
+msgstr ""
+
+msgid "Not used"
+msgstr ""
+
+msgid "Statistics deleted, but the file could not be saved. Details are in the NVDA log."
+msgstr ""
+
+msgid "{g} is free: not assigned to any command."
+msgstr ""
+
+msgid "Warning: conflict. These commands have the same priority, only one works."
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "&Quick guide"
+msgstr ""
+
+msgid "Open full &guide"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Quick guide: {name}"
+msgstr ""
+
+msgid "Commands"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "Stopped"
+msgstr ""
+
+msgid "Cancelled"
+msgstr ""
+
+msgid "{n} add-ons, {running} running."
+msgstr ""
+
+msgid "Change {key}, also used by {cmds}..."
+msgstr ""
+
+msgid "Change {key}..."
+msgstr ""
+
+msgid "{key}, also used by {cmds}"
+msgstr ""
+
+msgid "Reset all commands of {owner} to default..."
+msgstr ""
+
+msgid "{addon}: commands reset to default: {n}"
+msgstr ""
+
+msgid "Reset to default. Gestures now: {keys}"
+msgstr ""
+
+msgid "It is already used by {cmds}."
+msgstr ""
+
+msgid "{g} is already assigned to this command"
+msgstr ""
+
+msgid "Keep on both commands: {winner} will still run; {cmd} will not run with this key."
+msgstr ""
+
+msgid "{cmds} and {cmd} are in the same group of commands, where NVDA gives a key to only one command: if you keep it, it is still moved from {cmds}."
+msgstr ""
+
+msgid "Could not assign {g}. No changes were made. Details are in the NVDA log."
+msgstr ""
+
+msgid "Could not fully apply {g} ({cmds}). Details are in the NVDA log."
+msgstr ""
+
+msgid "Moved {g} to {cmd}"
+msgstr ""
+
+msgid "Added {g}"
+msgstr ""
+
+msgid "Gesture to remove from {cmd}:"
+msgstr ""
+
+msgid "removing {g} from {cmd}"
+msgstr ""
+
+msgid "Undo the last change: {change}"
+msgstr ""
+
+msgid "Restore gestures from {date}? This replaces all your own gestures, including changes made in NVDA's Input gestures dialog. Your current gestures are backed up first, so this can be undone too."
+msgstr ""
+
+msgid "restoring the backup of {date}"
+msgstr ""
+
+msgid "&Include overlaps between NVDA's own commands"
+msgstr ""
+
+msgid "Removed {g} from {cmd}, on the {layout} layout only"
+msgstr ""
+
+msgid "&Delete all statistics..."
+msgstr ""
+
+msgid "{period}: no uses recorded. Recording since {date}."
+msgstr ""
+
+msgid "&Start testing gestures"
+msgstr ""
+
+msgid "{g} is assigned to 1 command:"
+msgstr ""
+
+msgid "{g} is assigned to {n} commands:"
+msgstr ""
+
+msgid "Only the command marked (runs now) works; the others do not run."
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+msgid "Not running"
+msgstr ""
+
+msgid "{name} has no full guide"
+msgstr ""
+
+msgid "Language of the full guide of {name}:"
+msgstr ""
+
+msgid "The developer did not provide a description."
+msgstr ""
+
+msgid "This add-on is not running, so its commands cannot be listed. Enable it in the Add-on Store and restart NVDA."
+msgstr ""
+
+msgid "Gesture conflicts"
+msgstr ""
+
+msgid "This list could not be loaded. Details are in the NVDA log."
+msgstr ""
+
+msgid "{n} conflicts between add-ons"
+msgstr ""
+
+msgid "Remove {key}"
+msgstr ""
+
+msgid "Could not assign {g}. {old} was kept. Details are in the NVDA log."
+msgstr ""
+
+msgid "Remove {g} from {cmd}?"
+msgstr ""
+
+msgid "{date}, before {change}"
+msgstr ""
+
+msgid "{n} commands"
+msgstr ""
+
+msgid "Removed {g} from {cmd}"
+msgstr ""
+
+msgid "Removed {g} from {n} commands"
+msgstr ""
+
+msgid "{period}: 1 use of 1 command. Recording since {date}."
+msgstr ""
+
+msgid "Which command runs depends on the focused control."
+msgstr ""
+
+msgid "In {app}:"
+msgstr ""
+
+msgid "No commands were found. Some add-ons only add commands inside particular applications, or work without commands."
+msgstr ""
+
+msgid "App-specific commands are listed for the application that had focus before opening Personal Gesture Manager."
+msgstr ""
+
+msgid "Version: {v}"
+msgstr ""
+
+msgid "Status: {s}"
+msgstr ""
+
+msgid "{g} was added, but {old} could not be removed. Details are in the NVDA log."
+msgstr ""
+
+msgid "{period}: {total} uses of 1 command. Recording since {date}."
+msgstr ""
+
+msgid "{period}: {total} uses of {cmds} commands. Recording since {date}."
+msgstr ""
+
+msgid "Press Enter to open it."
+msgstr ""
+
+msgid "Press Enter to read the quick guide."
+msgstr ""
+
+msgid "Author: {a}"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+

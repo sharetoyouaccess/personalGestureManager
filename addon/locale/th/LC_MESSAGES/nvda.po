@@ -1,0 +1,698 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: th\n"
+
+msgid "Personal Gesture Manager"
+msgstr "Personal Gesture Manager"
+
+msgid "Personal &Gesture Manager..."
+msgstr "Personal Gesture Manager..."
+
+msgid "Personal Gesture Manager: usage statistics could not be saved. Check free disk space; details are in the NVDA log."
+msgstr "Personal Gesture Manager: ไม่สามารถบันทึกสถิติการใช้งานได้ กรุณาตรวจสอบพื้นที่ว่างในดิสก์ ดูรายละเอียดใน NVDA log"
+
+msgid "Opens Personal Gesture Manager"
+msgstr "เปิด Personal Gesture Manager"
+
+msgid "Opens the gesture tester of Personal Gesture Manager"
+msgstr "เปิดแท็บทดสอบปุ่มลัดของ Personal Gesture Manager"
+
+msgid "Personal Gesture Manager is not available on secure screens"
+msgstr "ไม่สามารถใช้ Personal Gesture Manager บนหน้าจอปลอดภัยได้"
+
+msgid "Scratchpad"
+msgstr "Scratchpad"
+
+msgid "Commands without a description"
+msgstr "คำสั่งที่ไม่มีคำอธิบาย"
+
+msgid "Personal Gesture Manager could not be opened. Details are in the NVDA log."
+msgstr "ไม่สามารถเปิด Personal Gesture Manager ได้ ดูรายละเอียดใน NVDA log"
+
+msgid "Most used commands"
+msgstr "คำสั่งที่ใช้บ่อยที่สุด"
+
+msgid "Least used commands"
+msgstr "คำสั่งที่ใช้น้อยที่สุด"
+
+msgid "Unused commands with a gesture"
+msgstr "คำสั่งที่มีปุ่มลัดแต่ไม่ได้ใช้"
+
+msgid "Commands with a gesture"
+msgstr "คำสั่งที่มีปุ่มลัด"
+
+msgid "Commands with more than one gesture"
+msgstr "คำสั่งที่มีปุ่มลัดมากกว่า 1 ปุ่ม"
+
+msgid "Commands without a gesture"
+msgstr "คำสั่งที่ไม่มีปุ่มลัด"
+
+msgid "All commands"
+msgstr "ทุกคำสั่ง"
+
+msgid "Commands by add-on"
+msgstr "คำสั่งของส่วนเสริม"
+
+msgid "Conflicts"
+msgstr "ปุ่มลัดซ้ำ"
+
+msgid "Statistics"
+msgstr "สถิติการใช้งาน"
+
+msgid "Gesture tester"
+msgstr "ทดสอบปุ่มลัด"
+
+msgid "Guides for NVDA and add-ons"
+msgstr "คู่มือ NVDA และส่วนเสริม"
+
+msgid "installed"
+msgstr "แบบติดตั้ง"
+
+msgid "portable"
+msgstr "แบบพกพา"
+
+msgid "unknown"
+msgstr "ไม่ทราบ"
+
+msgid "Windows Store"
+msgstr "Windows Store"
+
+msgid "This NVDA session"
+msgstr "การเปิด NVDA ครั้งนี้"
+
+msgid "Today"
+msgstr "วันนี้"
+
+msgid "Last 7 days"
+msgstr "7 วันล่าสุด"
+
+msgid "Last 30 days"
+msgstr "30 วันล่าสุด"
+
+msgid "All time"
+msgstr "ตั้งแต่เริ่มบันทึก"
+
+msgid "all keyboard layouts"
+msgstr "ทุกรูปแบบแป้นพิมพ์"
+
+msgid "desktop"
+msgstr "เดสก์ท็อป"
+
+msgid "laptop"
+msgstr "แล็ปท็อป"
+
+msgid "Conflict"
+msgstr "ปุ่มลัดซ้ำ"
+
+msgid "Override"
+msgstr "มีคำสั่งหนึ่งชนะ"
+
+msgid "Depends on focus"
+msgstr "ขึ้นกับตำแหน่งโฟกัส"
+
+msgid "Conflict, only one works"
+msgstr "ซ้ำกัน ทำงานได้เพียงคำสั่งเดียว"
+
+msgid "Override, one command wins"
+msgstr "มีคำสั่งหนึ่งชนะ"
+
+msgid "Depends on focused control"
+msgstr "ขึ้นอยู่กับตำแหน่งโฟกัส"
+
+msgid "1 time"
+msgstr "1 ครั้ง"
+
+msgid "(runs now)"
+msgstr "(ทำงานอยู่)"
+
+msgid "&Move it to this command"
+msgstr "ย้ายมาที่คำสั่งนี้"
+
+msgid "&Keep on both commands"
+msgstr "คงไว้ทั้งสองคำสั่ง"
+
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgid "&Choose another gesture"
+msgstr "กดปุ่มอื่น"
+
+msgid "Gestures"
+msgstr "ปุ่มลัด"
+
+msgid "Add a gesture..."
+msgstr "เพิ่มปุ่มลัด..."
+
+msgid "Reset this command to default"
+msgstr "คืนค่าปุ่มลัดเริ่มต้นของคำสั่งนี้"
+
+msgid "Press Enter to change, or Delete to remove the selected gesture."
+msgstr "กด Enter เพื่อเปลี่ยน หรือกด Delete เพื่อลบปุ่มลัดที่เลือก"
+
+msgid "Personal Gesture Manager is already open"
+msgstr "Personal Gesture Manager เปิดอยู่แล้ว"
+
+msgid "&Add-on"
+msgstr "ส่วนเสริม"
+
+msgid "&Filter type"
+msgstr "ตัวกรอง"
+
+msgid "C&ommands"
+msgstr "รายการคำสั่ง"
+
+msgid "Gestures of {cmd}"
+msgstr "ปุ่มลัดของ {cmd}"
+
+msgid "{cmd} has no gesture"
+msgstr "{cmd} ยังไม่มีปุ่มลัด"
+
+msgid "NVDA"
+msgstr "NVDA"
+
+msgid "Confirm"
+msgstr "ยืนยัน"
+
+msgid "Already using the default gestures"
+msgstr "ใช้ปุ่มลัดเริ่มต้นอยู่แล้ว"
+
+msgid "No commands"
+msgstr "ไม่มีคำสั่ง"
+
+msgid "Choose a backup of your gestures to restore (newest first):"
+msgstr "เลือกข้อมูลสำรองปุ่มลัดที่ต้องการกู้คืน (รายการล่าสุดอยู่ด้านบน):"
+
+msgid "Restore gestures"
+msgstr "กู้คืนปุ่มลัด"
+
+msgid "Gestures restored"
+msgstr "กู้คืนปุ่มลัดแล้ว"
+
+msgid "&Shared gestures"
+msgstr "ปุ่มลัดที่ใช้ร่วมกัน"
+
+msgid "No conflicts"
+msgstr "ไม่มีปุ่มลัดที่ซ้ำกัน"
+
+msgid "Gesture conflict"
+msgstr "ปุ่มลัดซ้ำกับคำสั่งอื่น"
+
+msgid "Change the gesture of this command..."
+msgstr "เปลี่ยนปุ่มลัดของคำสั่งนี้..."
+
+msgid "&Period"
+msgstr "ช่วงเวลา"
+
+msgid "Commands by &use"
+msgstr "คำสั่งตามการใช้งาน"
+
+msgid "Su&mmary"
+msgstr "สรุป"
+
+msgid "Every gesture was used in this period"
+msgstr "ปุ่มลัดทุกปุ่มถูกใช้งานในช่วงนี้"
+
+msgid "{period}: 1 command with a gesture was not used. Recording since {date}."
+msgstr "{period}: มี 1 คำสั่งที่มีปุ่มลัดแต่ไม่ได้ใช้ บันทึกตั้งแต่ {date}"
+
+msgid "{period}: {n} commands with a gesture were not used. Recording since {date}."
+msgstr "{period}: มี {n} คำสั่งที่มีปุ่มลัดแต่ไม่ได้ใช้ บันทึกตั้งแต่ {date}"
+
+msgid "Delete all usage statistics? This cannot be undone."
+msgstr "ต้องการลบสถิติการใช้งานทั้งหมดหรือไม่ การดำเนินการนี้ไม่สามารถย้อนกลับได้"
+
+msgid "All statistics deleted"
+msgstr "ลบสถิติทั้งหมดแล้ว"
+
+msgid "Test &results"
+msgstr "รายการทดสอบปุ่มลัด"
+
+msgid "&Add-ons and NVDA"
+msgstr "ส่วนเสริมและ NVDA"
+
+msgid "No add-ons found"
+msgstr "ไม่พบส่วนเสริม"
+
+msgid "{name} (no description)"
+msgstr "{name} (ไม่มีคำอธิบาย)"
+
+msgid "{key}, all keyboard layouts"
+msgstr "{key} ทุกรูปแบบแป้นพิมพ์"
+
+msgid "{n} times"
+msgstr "{n} ครั้ง"
+
+msgid "Adjust gestures for this command"
+msgstr "ปรับปุ่มลัดของคำสั่งนี้"
+
+msgid "&Close"
+msgstr "ปิดหน้าต่าง"
+
+msgid "No gesture"
+msgstr "ไม่มีปุ่มลัด"
+
+msgid "{name}. NVDA {version}, {mode}, on {computer}, {windows}."
+msgstr "{name}. NVDA {version} {mode} บนเครื่อง {computer}, {windows}"
+
+msgid "No conflicts between add-ons."
+msgstr "ไม่มีปุ่มลัดซ้ำระหว่างส่วนเสริม"
+
+msgid "All add-ons"
+msgstr "ส่วนเสริมทั้งหมด"
+
+msgid "All add-ons and NVDA"
+msgstr "ส่วนเสริมทั้งหมดและ NVDA"
+
+msgid "This command is not available here. App-specific commands are listed only for the application that had focus before opening this dialog."
+msgstr "ไม่พบคำสั่งนี้ในรายการ คำสั่งเฉพาะโปรแกรมจะแสดงเฉพาะของโปรแกรมที่ใช้งานอยู่ก่อนเปิดหน้าต่างนี้"
+
+msgid "The default gestures could not be saved. Details are in the NVDA log."
+msgstr "ไม่สามารถบันทึกปุ่มลัดเริ่มต้นได้ ดูรายละเอียดใน NVDA log"
+
+msgid "Enter the new gesture now, or press Escape to cancel."
+msgstr "กดปุ่มลัดใหม่ได้เลย หรือกด Escape เพื่อยกเลิก"
+
+msgid "{g} is a normal typing key. If it is assigned to a command, it will no longer type in any application. Assign it anyway?"
+msgstr "{g} เป็นปุ่มที่ใช้พิมพ์ตามปกติ หากกำหนดเป็นปุ่มลัด ปุ่มนี้จะพิมพ์ไม่ได้ในทุกโปรแกรม ต้องการกำหนดหรือไม่"
+
+msgid "{g} is a normal typing key. If it is assigned to a command, it will no longer type where this command works. Assign it anyway?"
+msgstr "{g} เป็นปุ่มที่ใช้พิมพ์ตามปกติ หากกำหนดเป็นปุ่มลัด ปุ่มนี้จะพิมพ์ไม่ได้ในที่ที่คำสั่งนี้ทำงาน ต้องการกำหนดหรือไม่"
+
+msgid "Typing key"
+msgstr "ปุ่มสำหรับพิมพ์"
+
+msgid "It is free."
+msgstr "ปุ่มนี้ยังว่างอยู่"
+
+msgid "Keyboard layout"
+msgstr "รูปแบบแป้นพิมพ์"
+
+msgid "{g} is already used by:\n{list}\n\nMove it to this command: it is removed from the command(s) above.\n{keep}\nChoose another gesture: enter a different one instead."
+msgstr "{g} ถูกใช้โดย:\n{list}\n\nย้ายมาที่คำสั่งนี้: นำปุ่มลัดออกจากคำสั่งข้างต้น\n{keep}\nกดปุ่มอื่น: เลือกปุ่มลัดอื่นแทน"
+
+msgid "Warning: this key belongs to one of NVDA's own commands."
+msgstr "คำเตือน: ปุ่มนี้เป็นของคำสั่งของ NVDA เอง"
+
+msgid "This command has no gesture"
+msgstr "คำสั่งนี้ยังไม่มีปุ่มลัด"
+
+msgid "Remove gesture"
+msgstr "ลบปุ่มลัด"
+
+msgid "No backups yet. A backup is made automatically before every change."
+msgstr "ยังไม่มีข้อมูลสำรอง ระบบจะสำรองให้อัตโนมัติก่อนการแก้ไขทุกครั้ง"
+
+msgid "Undo the last change"
+msgstr "ย้อนการแก้ไขล่าสุด"
+
+msgid "Could not restore the backup. Details are in the NVDA log."
+msgstr "ไม่สามารถกู้คืนข้อมูลสำรองได้ ดูรายละเอียดใน NVDA log"
+
+msgid "{msg}. {n} conflicts remaining"
+msgstr "{msg} เหลือปุ่มลัดที่ซ้ำกัน {n} รายการ"
+
+msgid "No commands with a gesture were used in this period"
+msgstr "ไม่มีคำสั่งที่มีปุ่มลัดถูกใช้ในช่วงนี้"
+
+msgid "No usage recorded yet for this selection"
+msgstr "ยังไม่มีข้อมูลการใช้งานในช่วงที่เลือก"
+
+msgid "The statistics file could not be read when NVDA started, so it cannot be changed now. Restart NVDA and try again."
+msgstr "ไม่สามารถอ่านไฟล์สถิติได้ตอนเริ่ม NVDA จึงยังแก้ไขไม่ได้ในขณะนี้ กรุณาเริ่ม NVDA ใหม่แล้วลองอีกครั้ง"
+
+msgid "Details copied"
+msgstr "คัดลอกข้อมูลแล้ว"
+
+msgid "Could not copy the details"
+msgstr "ไม่สามารถคัดลอกข้อมูลได้"
+
+msgid "Testing. Press a key or perform a gesture to hear what it does; it will not run. Escape stops."
+msgstr "เริ่มทดสอบ กดปุ่มลัดเพื่อฟังว่าทำอะไร คำสั่งจะไม่ทำงาน กด Escape เพื่อหยุด"
+
+msgid "NVDA User Guide"
+msgstr "คู่มือผู้ใช้ NVDA"
+
+msgid "NVDA Commands Quick Reference"
+msgstr "สรุปคำสั่ง NVDA"
+
+msgid "Complete manual of NVDA."
+msgstr "คู่มือการใช้งาน NVDA ฉบับสมบูรณ์"
+
+msgid "All NVDA keyboard commands on one page."
+msgstr "รวมคำสั่งแป้นพิมพ์ทั้งหมดของ NVDA ไว้ในหน้าเดียว"
+
+msgid "No add-on selected"
+msgstr "ยังไม่ได้เลือกรายการ"
+
+msgid "Open full guide"
+msgstr "เปิดคู่มือฉบับเต็ม"
+
+msgid "{key}, desktop layout only"
+msgstr "{key} เฉพาะเดสก์ท็อป"
+
+msgid "{key}, laptop layout only"
+msgstr "{key} เฉพาะแล็ปท็อป"
+
+msgid "NVDA {version}, {mode}, running from {nvdaDir}"
+msgstr "NVDA {version} {mode} รันจาก {nvdaDir}"
+
+msgid "Gestures and settings saved in {configPath}"
+msgstr "ปุ่มลัดและการตั้งค่าบันทึกไว้ที่ {configPath}"
+
+msgid "Keyboard layout: {layout}. Input language: {lang}."
+msgstr "รูปแบบแป้นพิมพ์: {layout} ภาษาแป้นพิมพ์: {lang}"
+
+msgid "{windows}, build {build}. Computer name: {computer}."
+msgstr "{windows} build {build} ชื่อเครื่อง: {computer}"
+
+msgid "Application tested: {app}"
+msgstr "โปรแกรมที่ทดสอบ: {app}"
+
+msgid "The guide could not be opened. Details are in the NVDA log."
+msgstr "ไม่สามารถเปิดคู่มือได้ ดูรายละเอียดใน NVDA log"
+
+msgid "1 conflict between add-ons"
+msgstr "ปุ่มลัดซ้ำระหว่างส่วนเสริม 1 รายการ"
+
+msgid "Command"
+msgstr "คำสั่ง"
+
+msgid "Adjust ge&stures for this command..."
+msgstr "ปรับปุ่มลัดของคำสั่งนี้..."
+
+msgid "&Backups..."
+msgstr "ข้อมูลสำรอง..."
+
+msgid "Reset all {n} commands of {addon} to their default gestures? A backup is made first."
+msgstr "ต้องการคืนค่าปุ่มลัดเริ่มต้นของ {addon} ทั้ง {n} คำสั่งหรือไม่ ระบบจะสำรองข้อมูลไว้ก่อน"
+
+msgid "resetting all commands of {addon}"
+msgstr "คืนค่าทุกคำสั่งของ {addon}"
+
+msgid "resetting {cmd}"
+msgstr "คืนค่า {cmd}"
+
+msgid "No command selected"
+msgstr "ยังไม่ได้เลือกคำสั่ง"
+
+msgid "No: press another key. Cancel: go back."
+msgstr "ไม่: กดปุ่มอื่น ยกเลิก: กลับไป"
+
+msgid "Replace {old} with {g} for {cmd}?"
+msgstr "ต้องการเปลี่ยน {old} เป็น {g} สำหรับ {cmd} หรือไม่"
+
+msgid "Assign {g} to {cmd}?"
+msgstr "ต้องการกำหนด {g} ให้คำสั่ง {cmd} หรือไม่"
+
+msgid "Choose where this gesture applies, or Cancel:"
+msgstr "เลือกรูปแบบแป้นพิมพ์ที่จะใช้ปุ่มลัดนี้ หรือเลือกยกเลิก:"
+
+msgid "replacing {old} with {g} for {cmd}"
+msgstr "เปลี่ยน {old} เป็น {g} ของ {cmd}"
+
+msgid "adding {g} to {cmd}"
+msgstr "เพิ่ม {g} ให้ {cmd}"
+
+msgid "Keep on both commands: {cmd} will run; the others will no longer run with this key."
+msgstr "คงไว้ทั้งสองคำสั่ง: {cmd} จะทำงาน ส่วนคำสั่งอื่นจะใช้ปุ่มนี้ไม่ได้อีก"
+
+msgid "Keep on both commands: which one runs depends on the focused control."
+msgstr "คงไว้ทั้งสองคำสั่ง: คำสั่งที่ทำงานจะขึ้นกับตำแหน่งโฟกัส"
+
+msgid "Keep on both commands: only one of them will run, and it cannot be known which."
+msgstr "คงไว้ทั้งสองคำสั่ง: จะมีเพียงคำสั่งเดียวที่ทำงาน และไม่อาจรู้ได้ว่าคำสั่งใด"
+
+msgid "Replaced {old} with {g}"
+msgstr "เปลี่ยน {old} เป็น {g} แล้ว"
+
+msgid "{msg}. It does not work on the {layout} layout, because this key was removed there from another command of the same group."
+msgstr "{msg} แต่ใช้ไม่ได้ในรูปแบบ{layout} เพราะปุ่มนี้ถูกลบออกจากคำสั่งอื่นในกลุ่มเดียวกันสำหรับรูปแบบนั้น"
+
+msgid "Removed {g}"
+msgstr "ลบ {g} แล้ว"
+
+msgid "Could not remove {g}. Details are in the NVDA log."
+msgstr "ไม่สามารถลบ {g} ได้ ดูรายละเอียดใน NVDA log"
+
+msgid "Could not back up gestures.ini. Continue without a backup?"
+msgstr "ไม่สามารถสำรองไฟล์ gestures.ini ได้ ต้องการดำเนินการต่อโดยไม่สำรองข้อมูลหรือไม่"
+
+msgid "Backup failed"
+msgstr "สำรองข้อมูลไม่สำเร็จ"
+
+msgid "Gesture"
+msgstr "ปุ่มลัด"
+
+msgid "Layout"
+msgstr "รูปแบบแป้นพิมพ์"
+
+msgid "Shared by"
+msgstr "ใช้ร่วมกัน"
+
+msgid "{g} is used by {n} commands. Choose a command:"
+msgstr "{g} ถูกใช้โดย {n} คำสั่ง เลือกคำสั่ง:"
+
+msgid "Only this command uses {g} (it is removed from the others)"
+msgstr "ให้คำสั่งนี้ใช้ {g} คำสั่งเดียว (เอาออกจากคำสั่งอื่น)"
+
+msgid "Remove {g} from this command"
+msgstr "เอา {g} ออกจากคำสั่งนี้"
+
+msgid "{g}, {cmd}:"
+msgstr "{g}, {cmd}:"
+
+msgid "{msg}. No conflicts remaining"
+msgstr "{msg} ไม่มีปุ่มลัดที่ซ้ำกันเหลือแล้ว"
+
+msgid "{msg}. 1 conflict remaining"
+msgstr "{msg} เหลือปุ่มลัดที่ซ้ำกัน 1 รายการ"
+
+msgid "Uses"
+msgstr "จำนวนครั้งที่ใช้"
+
+msgid "Add-on"
+msgstr "ส่วนเสริม"
+
+msgid "{period}: no command with a gesture was used. Recording since {date}."
+msgstr "{period}: ไม่มีคำสั่งที่มีปุ่มลัดถูกใช้ บันทึกตั้งแต่ {date}"
+
+msgid "Not used"
+msgstr "ไม่ได้ใช้"
+
+msgid "Statistics deleted, but the file could not be saved. Details are in the NVDA log."
+msgstr "ลบสถิติแล้ว แต่ไม่สามารถบันทึกไฟล์ได้ ดูรายละเอียดใน NVDA log"
+
+msgid "{g} is free: not assigned to any command."
+msgstr "{g} ว่าง ยังไม่ได้กำหนดให้คำสั่งใด"
+
+msgid "Warning: conflict. These commands have the same priority, only one works."
+msgstr "คำเตือน: ปุ่มลัดซ้ำกัน คำสั่งเหล่านี้มีลำดับความสำคัญเท่ากัน ทำงานได้เพียงคำสั่งเดียว"
+
+msgid "Name"
+msgstr "ชื่อ"
+
+msgid "Status"
+msgstr "สถานะ"
+
+msgid "Description"
+msgstr "คำอธิบาย"
+
+msgid "&Quick guide"
+msgstr "วิธีใช้ฉบับย่อ"
+
+msgid "Open full &guide"
+msgstr "เปิดคู่มือฉบับเต็ม"
+
+msgid "Disabled"
+msgstr "ปิดใช้งาน"
+
+msgid "Quick guide: {name}"
+msgstr "วิธีใช้ฉบับย่อ: {name}"
+
+msgid "Commands"
+msgstr "คำสั่ง"
+
+msgid "About"
+msgstr "ข้อมูลทั่วไป"
+
+msgid "Stopped"
+msgstr "หยุดทดสอบแล้ว"
+
+msgid "Cancelled"
+msgstr "ยกเลิกแล้ว"
+
+msgid "{n} add-ons, {running} running."
+msgstr "ส่วนเสริม {n} ตัว ทำงานอยู่ {running} ตัว"
+
+msgid "Change {key}, also used by {cmds}..."
+msgstr "เปลี่ยน {key} ซึ่งใช้ร่วมกับ {cmds}..."
+
+msgid "Change {key}..."
+msgstr "เปลี่ยน {key}..."
+
+msgid "{key}, also used by {cmds}"
+msgstr "{key}, ใช้ร่วมกับ {cmds}"
+
+msgid "Reset all commands of {owner} to default..."
+msgstr "คืนค่าปุ่มลัดเริ่มต้นทุกคำสั่งของ {owner}..."
+
+msgid "{addon}: commands reset to default: {n}"
+msgstr "{addon}: คืนค่าปุ่มลัดเริ่มต้นแล้ว {n} คำสั่ง"
+
+msgid "Reset to default. Gestures now: {keys}"
+msgstr "คืนค่าแล้ว ปุ่มลัดตอนนี้: {keys}"
+
+msgid "It is already used by {cmds}."
+msgstr "ปุ่มนี้ถูกใช้โดย {cmds}"
+
+msgid "{g} is already assigned to this command"
+msgstr "{g} ถูกกำหนดให้คำสั่งนี้อยู่แล้ว"
+
+msgid "Keep on both commands: {winner} will still run; {cmd} will not run with this key."
+msgstr "คงไว้ทั้งสองคำสั่ง: {winner} ยังคงทำงาน ส่วน {cmd} จะใช้ปุ่มนี้ไม่ได้"
+
+msgid "{cmds} and {cmd} are in the same group of commands, where NVDA gives a key to only one command: if you keep it, it is still moved from {cmds}."
+msgstr "{cmds} และ {cmd} อยู่ในกลุ่มคำสั่งเดียวกัน ซึ่ง NVDA ให้ปุ่มหนึ่งปุ่มกับคำสั่งเดียวเท่านั้น หากเลือกใช้ทั้งสองคำสั่ง ปุ่มนี้จะยังถูกย้ายออกจาก {cmds}"
+
+msgid "Could not assign {g}. No changes were made. Details are in the NVDA log."
+msgstr "ไม่สามารถกำหนด {g} ได้ จึงไม่มีการเปลี่ยนแปลงใด ดูรายละเอียดใน NVDA log"
+
+msgid "Could not fully apply {g} ({cmds}). Details are in the NVDA log."
+msgstr "ไม่สามารถกำหนด {g} ได้ครบถ้วน ({cmds}) ดูรายละเอียดใน NVDA log"
+
+msgid "Moved {g} to {cmd}"
+msgstr "ย้าย {g} มาที่คำสั่ง {cmd} แล้ว"
+
+msgid "Added {g}"
+msgstr "เพิ่ม {g} แล้ว"
+
+msgid "Gesture to remove from {cmd}:"
+msgstr "เลือกปุ่มลัดที่ต้องการลบออกจากคำสั่ง {cmd}:"
+
+msgid "removing {g} from {cmd}"
+msgstr "ลบ {g} ออกจาก {cmd}"
+
+msgid "Undo the last change: {change}"
+msgstr "ย้อนการแก้ไขล่าสุด: {change}"
+
+msgid "Restore gestures from {date}? This replaces all your own gestures, including changes made in NVDA's Input gestures dialog. Your current gestures are backed up first, so this can be undone too."
+msgstr "ต้องการกู้คืนปุ่มลัดจาก {date} หรือไม่ การกู้คืนจะแทนที่ปุ่มลัดที่กำหนดเองทั้งหมด รวมถึงที่แก้ไขในหน้าต่างคำสั่งของ NVDA ระบบจะสำรองปุ่มลัดปัจจุบันไว้ก่อน จึงย้อนกลับได้"
+
+msgid "restoring the backup of {date}"
+msgstr "กู้คืนข้อมูลสำรองของ {date}"
+
+msgid "&Include overlaps between NVDA's own commands"
+msgstr "แสดงปุ่มลัดที่ซ้ำกันระหว่างคำสั่งของ NVDA เองด้วย"
+
+msgid "Removed {g} from {cmd}, on the {layout} layout only"
+msgstr "เอา {g} ออกจาก {cmd} เฉพาะรูปแบบแป้นพิมพ์{layout}"
+
+msgid "&Delete all statistics..."
+msgstr "ลบสถิติทั้งหมด..."
+
+msgid "{period}: no uses recorded. Recording since {date}."
+msgstr "{period}: ยังไม่มีการใช้งาน บันทึกตั้งแต่ {date}"
+
+msgid "&Start testing gestures"
+msgstr "เริ่มทดสอบปุ่มลัด"
+
+msgid "{g} is assigned to 1 command:"
+msgstr "{g} ถูกกำหนดให้ 1 คำสั่ง:"
+
+msgid "{g} is assigned to {n} commands:"
+msgstr "{g} ถูกกำหนดให้ {n} คำสั่ง:"
+
+msgid "Only the command marked (runs now) works; the others do not run."
+msgstr "เฉพาะคำสั่งที่ระบุว่า (ทำงานอยู่) เท่านั้นที่ทำงาน คำสั่งอื่นจะไม่ทำงาน"
+
+msgid "Running"
+msgstr "กำลังทำงาน"
+
+msgid "Not running"
+msgstr "ไม่ได้ทำงาน"
+
+msgid "{name} has no full guide"
+msgstr "{name} ไม่มีคู่มือฉบับเต็ม"
+
+msgid "Language of the full guide of {name}:"
+msgstr "ภาษาของคู่มือฉบับเต็มของ {name}:"
+
+msgid "The developer did not provide a description."
+msgstr "ผู้พัฒนาไม่ได้ระบุคำอธิบายไว้"
+
+msgid "This add-on is not running, so its commands cannot be listed. Enable it in the Add-on Store and restart NVDA."
+msgstr "ส่วนเสริมนี้ไม่ได้ทำงานอยู่ จึงไม่สามารถแสดงรายการคำสั่งได้ กรุณาเปิดใช้งานในร้านค้าส่วนเสริม (Add-on Store) แล้วเริ่ม NVDA ใหม่"
+
+msgid "Gesture conflicts"
+msgstr "ปุ่มลัดที่ซ้ำกัน"
+
+msgid "This list could not be loaded. Details are in the NVDA log."
+msgstr "ไม่สามารถโหลดรายการนี้ได้ ดูรายละเอียดใน NVDA log"
+
+msgid "{n} conflicts between add-ons"
+msgstr "พบปุ่มลัดซ้ำระหว่างส่วนเสริม {n} รายการ"
+
+msgid "Remove {key}"
+msgstr "ลบ {key}"
+
+msgid "Could not assign {g}. {old} was kept. Details are in the NVDA log."
+msgstr "ไม่สามารถกำหนด {g} ได้ จึงคงปุ่มลัด {old} ไว้ตามเดิม ดูรายละเอียดใน NVDA log"
+
+msgid "Remove {g} from {cmd}?"
+msgstr "ต้องการลบ {g} ออกจาก {cmd} หรือไม่"
+
+msgid "{date}, before {change}"
+msgstr "{date} ก่อน{change}"
+
+msgid "{n} commands"
+msgstr "{n} คำสั่ง"
+
+msgid "Removed {g} from {cmd}"
+msgstr "ลบ {g} ออกจาก {cmd} แล้ว"
+
+msgid "Removed {g} from {n} commands"
+msgstr "ลบ {g} ออกจาก {n} คำสั่งแล้ว"
+
+msgid "{period}: 1 use of 1 command. Recording since {date}."
+msgstr "{period}: 1 คำสั่ง ใช้รวม 1 ครั้ง บันทึกตั้งแต่ {date}"
+
+msgid "Which command runs depends on the focused control."
+msgstr "คำสั่งที่จะทำงานขึ้นอยู่กับตำแหน่งโฟกัส"
+
+msgid "In {app}:"
+msgstr "ในโปรแกรม {app}:"
+
+msgid "No commands were found. Some add-ons only add commands inside particular applications, or work without commands."
+msgstr "ไม่พบคำสั่งของส่วนเสริมนี้ ส่วนเสริมบางรายการมีคำสั่งเฉพาะในบางโปรแกรม หรือทำงานโดยไม่ต้องใช้คำสั่ง"
+
+msgid "App-specific commands are listed for the application that had focus before opening Personal Gesture Manager."
+msgstr "คำสั่งเฉพาะโปรแกรมจะแสดงเฉพาะของโปรแกรมที่ใช้งานอยู่ก่อนเปิด Personal Gesture Manager"
+
+msgid "Version: {v}"
+msgstr "เวอร์ชัน: {v}"
+
+msgid "Status: {s}"
+msgstr "สถานะ: {s}"
+
+msgid "{g} was added, but {old} could not be removed. Details are in the NVDA log."
+msgstr "เพิ่ม {g} แล้ว แต่ไม่สามารถลบ {old} ได้ ดูรายละเอียดใน NVDA log"
+
+msgid "{period}: {total} uses of 1 command. Recording since {date}."
+msgstr "{period}: 1 คำสั่ง ใช้รวม {total} ครั้ง บันทึกตั้งแต่ {date}"
+
+msgid "{period}: {total} uses of {cmds} commands. Recording since {date}."
+msgstr "{period}: {cmds} คำสั่ง ใช้รวม {total} ครั้ง บันทึกตั้งแต่ {date}"
+
+msgid "Press Enter to open it."
+msgstr "กด Enter เพื่อเปิด"
+
+msgid "Press Enter to read the quick guide."
+msgstr "กด Enter เพื่ออ่านวิธีใช้ฉบับย่อ"
+
+msgid "Author: {a}"
+msgstr "ผู้พัฒนา: {a}"
+
+msgid "Other"
+msgstr "อื่นๆ"
+
