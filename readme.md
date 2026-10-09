@@ -3,7 +3,7 @@
 * Author: Peem Narkkhwan
 * Contact: sharetoyouaccess@gmail.com
 * Version: 2026.10.5
-* Compatible with: NVDA 2026.1 to 2026.3
+* Compatible with: NVDA 2026.1 and later (last tested with NVDA 2026.2)
 
 ## 1. Introduction
 
