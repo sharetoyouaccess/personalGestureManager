@@ -4,3 +4,4 @@ __pycache__/
 *.mo
 *.tgz
 addon/doc/
+release/
