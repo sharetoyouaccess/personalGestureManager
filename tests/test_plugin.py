@@ -1,5 +1,10 @@
 """Smoke test of the global plugin with stubbed NVDA modules."""
 import os, sys, types, tempfile, builtins, unittest
+
+def unwritable():
+	"""A path that cannot be written on any system: its folder would be inside a regular file."""
+	fd, f = tempfile.mkstemp(); os.close(fd)
+	return os.path.join(f, "nope", "s.json")
 builtins._ = lambda s: s
 TMP = tempfile.mkdtemp()
 def mod(name, **kw):
@@ -119,7 +124,7 @@ class T(unittest.TestCase):
 		self.assertEqual(igm.gestureText("kb(laptop):nvda+x"), "NVDA+X (laptop)")
 		self.assertEqual(igm.gestureText("br(x):dot1"), "DOT1 (x)")
 		# save failure is reported once, then only debug-logged
-		p.stats.path = "/proc/nope/s.json"; p.stats.dirty = True
+		p.stats.path = unwritable(); p.stats.dirty = True
 		t = p._autoSave(); t.join()
 		p.stats.dirty = True  # failed write keeps data marked unsaved
 		t = p._autoSave(); t.join()

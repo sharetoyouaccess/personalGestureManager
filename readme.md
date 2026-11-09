@@ -2,8 +2,8 @@
 
 * Author: Peem Narkkhwan
 * Contact: sharetoyouaccess@gmail.com
-* Version: 2026.10.5
-* Compatible with: NVDA 2026.1 and later (last tested with NVDA 2026.2)
+* Version: 2026.11.09
+* Compatible with: NVDA 2026.1 and later (last tested with NVDA 2026.3)
 
 ## 1. Introduction
 
@@ -77,7 +77,7 @@ The window has five tabs:
 
 Press Ctrl+Tab or Ctrl+Shift+Tab to move to the next or previous tab, or Ctrl+1 to Ctrl+5 to go to a tab directly. NVDA announces the name of the tab, followed by its first control.
 
-When you arrive at the Conflicts tab, NVDA tells you how many conflicts there are between add-ons, for example "3 conflicts between add-ons". Nothing is announced when there are none.
+When you arrive at the Conflicts tab, NVDA tells you how many gestures involving add-ons are shared, by type: conflicts first, then overrides and those that depend on focus, for example "3 conflicts between add-ons, 2 overrides, 1 depends on focus". Types with none are left out, and nothing is announced when no gesture is shared.
 
 ### Keyboard Shortcuts in the Window
 

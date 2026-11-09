@@ -570,15 +570,13 @@ class ManagerDialog(wx.Dialog):
 	def detailLines(self):
 		"""Everything worth knowing about where this add-on works, most useful first (NVDA+T twice, NVDA details)."""
 		s, e = self._sys(), self.env
-		n = len(self._realConflicts()) if self.conflicts else 0
 		lines = [
 			_("NVDA {version}, {mode}, running from {nvdaDir}").format(version=e.get("version", "?"),
 				mode=e.get("mode", "?"), nvdaDir=s.get("nvdaDir", "?")),
 			_("Gestures and settings saved in {configPath}").format(configPath=e.get("configPath", "?")),
 			_("Keyboard layout: {layout}. Input language: {lang}.").format(
 				layout=LAYOUT_LABELS.get(e.get("layout"), e.get("layout", "?")), lang=s.get("inputLanguage", "?")),
-			(_("No conflicts between add-ons.") if not n else _("1 conflict between add-ons") + "." if n == 1
-				else _("{n} conflicts between add-ons").format(n=n) + "."),
+			self._sharedSummary(period=True) or _("No conflicts between add-ons."),
 		]
 		if s.get("addons") is not None:
 			lines.append(_("{n} add-ons, {running} running.").format(n=s["addons"], running=s.get("running", "?")))
@@ -778,20 +776,36 @@ class ManagerDialog(wx.Dialog):
 			pass
 		self._speakAfterFocus(_("Personal Gesture Manager is already open"))
 
+	def _addonShared(self, kind):
+		"""Gestures of this kind shared by commands that include at least one add-on."""
+		return [cf for cf in (self.conflicts or ()) if cf.kind == kind and any(c.addon for c in cf.commands)]
+
 	def _realConflicts(self):
-		return [cf for cf in self.conflicts if cf.kind == "conflict" and any(c.addon for c in cf.commands)]
+		return self._addonShared("conflict")
+
+	def _sharedSummary(self, period=False):
+		"""Conflicts first (they need fixing), then overrides and focus-dependent ones; "" when there are none."""
+		n, o, x = (len(self._addonShared(k)) for k in CONF_KINDS)
+		if not (n or o or x):
+			return ""
+		parts = [_("No conflicts between add-ons") if not n else _("1 conflict between add-ons") if n == 1
+			else _("{n} conflicts between add-ons").format(n=n)]
+		if o:
+			parts.append(_("1 override") if o == 1 else _("{n} overrides").format(n=o))
+		if x:
+			parts.append(_("1 depends on focus") if x == 1 else _("{n} depend on focus").format(n=x))
+		return ", ".join(parts) + ("." if period else "")
 
 	def _announceConflicts(self):
-		"""On arriving at the Conflicts tab: how many there are, if any (the list shows which)."""
+		"""On arriving at the Conflicts tab: how many of each kind there are, if any (the list shows which)."""
 		try:
 			if self._closed:
 				return
-			n = len(self._realConflicts())
+			text = self._sharedSummary()
 		except RuntimeError:  # dialog already destroyed
 			return
-		if n:
-			self._speakAfterFocus(_("1 conflict between add-ons") if n == 1
-				else _("{n} conflicts between add-ons").format(n=n))
+		if text:
+			self._speakAfterFocus(text)
 
 	def _addonChoices(self, extraKeys=()):
 		names = {}

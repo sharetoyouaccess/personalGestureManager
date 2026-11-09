@@ -257,6 +257,9 @@ msgstr ""
 msgid "No conflicts between add-ons."
 msgstr ""
 
+msgid "No conflicts between add-ons"
+msgstr ""
+
 msgid "All add-ons"
 msgstr ""
 
@@ -372,6 +375,12 @@ msgid "The guide could not be opened. Details are in the NVDA log."
 msgstr ""
 
 msgid "1 conflict between add-ons"
+msgstr ""
+
+msgid "1 override"
+msgstr ""
+
+msgid "1 depends on focus"
 msgstr ""
 
 msgid "Command"
@@ -630,6 +639,12 @@ msgid "This list could not be loaded. Details are in the NVDA log."
 msgstr ""
 
 msgid "{n} conflicts between add-ons"
+msgstr ""
+
+msgid "{n} overrides"
+msgstr ""
+
+msgid "{n} depend on focus"
 msgstr ""
 
 msgid "Remove {key}"

@@ -767,6 +767,14 @@ class T(unittest.TestCase):
 		cap()(G(["br(x):dot1"])); fakewx.runCalls(); self.assertIsNone(cap()); self.assertEqual(SPOKEN[-1], "Stopped")
 		# no conflicts: nothing said on arrival
 		d.conflicts = []; SPOKEN.clear(); d._announceConflicts(); self.assertEqual(SPOKEN, [])
+		# overrides and focus-dependent ones are reported too, after the conflicts; NVDA-only ones are not
+		cf = lambda kind, addon="a": types.SimpleNamespace(kind=kind, commands=[types.SimpleNamespace(addon=addon)])
+		d.conflicts = [cf("override"), cf("override"), cf("context"), cf("conflict", None)]
+		d._announceConflicts(); fakewx.runCalls()
+		self.assertEqual(SPOKEN[-1], "No conflicts between add-ons, 2 overrides, 1 depends on focus")
+		d.conflicts += [cf("conflict"), cf("context")]
+		self.assertIn("1 conflict between add-ons, 2 overrides, 2 depend on focus.", d.detailLines())
+		d.conflicts = []
 		self.assertEqual(d.title, "Personal Gesture Manager")
 
 	def test_undo_skips_changes_that_did_nothing(self):

@@ -1,4 +1,9 @@
 import os, sys, tempfile, json, time, unittest
+
+def unwritable():
+	"""A path that cannot be written on any system: its folder would be inside a regular file."""
+	fd, f = tempfile.mkstemp(); os.close(fd)
+	return os.path.join(f, "nope", "s.json")
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "addon", "globalPlugins", "personalGestureManager"))
 import core
 
@@ -108,7 +113,7 @@ class T3(unittest.TestCase):
 		self.assertEqual(core.StatsStore(p).counts("all"), {"ok": 3, "k": 1})
 		self.assertEqual(time.strftime("%Y-%m-%d", time.localtime(s.since())), "2026-10-02")
 	def test_save_failure_keeps_dirty(self):
-		s = core.StatsStore("/proc/nope/s.json"); s.record("k", "K", None, None)
+		s = core.StatsStore(unwritable()); s.record("k", "K", None, None)
 		with self.assertRaises(OSError):
 			s.save()
 		self.assertTrue(s.dirty)
@@ -138,7 +143,7 @@ class T3(unittest.TestCase):
 		self.assertEqual(core.StatsStore(p).counts("all"), {"k": 1})
 		s.save(); self.assertEqual(core.StatsStore(p).counts("all"), {"k": 2})
 		errs = []
-		bad = core.StatsStore("/proc/nope/s.json"); bad.record("k", "K", None, None)
+		bad = core.StatsStore(unwritable()); bad.record("k", "K", None, None)
 		bad.saveInBackground(onError=errs.append).join()
 		self.assertEqual(len(errs), 1); self.assertTrue(bad.dirty)
 
@@ -170,6 +175,7 @@ class T3(unittest.TestCase):
 		self.assertTrue(s3.readOnly); s3.record("z", "Z", None, None); s3.save()
 		self.assertNotIn("z", core.StatsStore(p).counts("all")); self.assertFalse(os.path.exists(p + ".corrupt"))
 
+	@unittest.skipUnless(hasattr(time, "tzset"), "time.tzset is not available on Windows")
 	def test_daylight_saving(self):
 		old = os.environ.get("TZ")
 		os.environ["TZ"] = "America/New_York"; time.tzset()

@@ -258,6 +258,9 @@ msgstr "{name}. NVDA {version} {mode} บนเครื่อง {computer}, {w
 msgid "No conflicts between add-ons."
 msgstr "ไม่มีปุ่มลัดซ้ำระหว่างส่วนเสริม"
 
+msgid "No conflicts between add-ons"
+msgstr "ไม่มีปุ่มลัดซ้ำระหว่างส่วนเสริม"
+
 msgid "All add-ons"
 msgstr "ส่วนเสริมทั้งหมด"
 
@@ -374,6 +377,12 @@ msgstr "ไม่สามารถเปิดคู่มือได้ ด�
 
 msgid "1 conflict between add-ons"
 msgstr "ปุ่มลัดซ้ำระหว่างส่วนเสริม 1 รายการ"
+
+msgid "1 override"
+msgstr "มีคำสั่งหนึ่งชนะ 1 รายการ"
+
+msgid "1 depends on focus"
+msgstr "ขึ้นอยู่กับตำแหน่งโฟกัส 1 รายการ"
 
 msgid "Command"
 msgstr "คำสั่ง"
@@ -632,6 +641,12 @@ msgstr "ไม่สามารถโหลดรายการนี้ได
 
 msgid "{n} conflicts between add-ons"
 msgstr "พบปุ่มลัดซ้ำระหว่างส่วนเสริม {n} รายการ"
+
+msgid "{n} overrides"
+msgstr "มีคำสั่งหนึ่งชนะ {n} รายการ"
+
+msgid "{n} depend on focus"
+msgstr "ขึ้นอยู่กับตำแหน่งโฟกัส {n} รายการ"
 
 msgid "Remove {key}"
 msgstr "ลบ {key}"

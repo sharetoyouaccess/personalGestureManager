@@ -12,11 +12,13 @@ if missing:
 for i in ids:
 	assert sorted(re.findall(r"\{\w+\}", i)) == sorted(re.findall(r"\{\w+\}", tr[i])), i
 q = lambda s: json.dumps(s, ensure_ascii=False)
-with open(PO, "w", encoding="utf-8") as f:
+with open(PO, "w", encoding="utf-8", newline="
+") as f:
 	f.write('msgid ""\nmsgstr ""\n"Content-Type: text/plain; charset=UTF-8\\n"\n"Language: th\\n"\n\n')
 	for i in ids:
 		f.write("msgid %s\nmsgstr %s\n\n" % (q(i), q(tr[i])))
-with open("nvda.pot", "w", encoding="utf-8") as f:  # template for new translations
+with open("nvda.pot", "w", encoding="utf-8", newline="
+") as f:  # template for new translations
 	f.write('msgid ""\nmsgstr ""\n"Content-Type: text/plain; charset=UTF-8\\n"\n\n')
 	for i in ids:
 		f.write('msgid %s\nmsgstr ""\n\n' % q(i))
